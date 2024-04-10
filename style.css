@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #96B6C5;
+}
+
+.card-calculadora {
+    border: 3px solid #51829B;
+    background-color:  #ADC4CE;
+    border-radius: 8px;
+    width: 40rem;
+    height: 30rem;
+    padding: 2rem;
+}
+
+input {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 1rem;
+    outline: none;
+    font-size: 18px;
+}
+
+button {
+    width: 100%;
+    margin-block: 3rem;
+    height: 2rem;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
